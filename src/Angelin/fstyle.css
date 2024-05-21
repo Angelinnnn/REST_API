@@ -1,0 +1,12 @@
+select
+{
+    height: 30px;
+    width: 170px;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}

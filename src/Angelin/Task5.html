@@ -1,0 +1,31 @@
+<html>
+    <body>
+
+<center><h1>Drop-Down</h1></center>
+
+<label>Select Category</label>
+<select id="category">
+    <option value="Vegetables">Vegetables</option>
+    <option value="Fruits">Fruits</option>
+
+</select>
+
+<label>Select Product</label>
+<select id="product">
+</select>
+
+<script> let category=[
+        {id:1, category:"Vegetables" },
+        {id:2, category:"Fruits" },
+    ]
+    let product=[
+        {id:1, product:["Beans","Cabbage","Carrot"]},
+        {id:2, product:["Apple", "Orange","Mango" ]},
+    ]
+category_value=document.getElementById("category")
+product_value=document.getElementsByName("product")
+selected_category=category_value.value
+
+</script>
+</body>  
+</html>
